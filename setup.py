@@ -51,7 +51,7 @@ setup(name='checklist',
         'jupyter>=1.0',
         'ipywidgets>=7.5',
         'transformers>=2.8',
-        'patternfork-nosql',
+        'patternfork-nosql-fix',
         'pycountry'
       ],
       cmdclass={
