@@ -35,7 +35,7 @@ class PostInstallCommand(install):
         self.execute(enable_visual_interface_shell_cmd, (self.install_lib,), msg="Running post install task")
         #enable_visual_interface()
 
-setup(name='checklist',
+setup(name='checklist-pattern',
       version='0.0.11',
       description='Beyond Accuracy: Behavioral Testing of NLP Models with CheckList',
       url='http://github.com/marcotcr/checklist',
